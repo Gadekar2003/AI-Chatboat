@@ -1,12 +1,111 @@
-# React + Vite
+# AI-Chatboat
+🤖 AI-powered chatbot interface built using Gemini AI, React, and Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive, responsive AI-powered chatbot built using **React**, **Tailwind CSS**, **Gemini AI**, and **Lucide Icons**. This chatbot can answer user queries in real-time and provides a minimal yet elegant user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🚀 Demo
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+### ✨ Features
+
+* 💬 Chatbot powered by **Gemini AI**
+* 🢁 Personalized user greetings from `localStorage`
+* 💡 Light-weight and mobile responsive UI
+* 💻 Built using **React**, **Tailwind CSS**, **Lucide Icons**
+* ⚡ Smooth animations and transitions
+* 📜 Markdown support for better message formatting
+
+---
+
+### 🛠️ Tech Stack
+
+| Tech           | Used For                    |
+| -------------- | --------------------------- |
+| React          | Frontend Framework          |
+| Tailwind CSS   | Styling & Responsive Design |
+| Gemini AI      | AI Response Generation      |
+| Lucide React   | Icons                       |
+| React Markdown | Rendering Markdown in Chat  |
+| Vite           | Development Build Tool      |
+
+---
+
+### 📁 Folder Structure
+
+```
+my-AIChatgpt-react-app/
+├── public/
+│   └── _redirects          # Netlify redirects for SPA routing
+├── src/
+│   ├── chatboat/
+│   │   ├── ChatButton.jsx  # Floating Chat Icon Button
+│   │   ├── ChatMessage.jsx # Message Component
+│   │   └── ChatWindow.jsx  # Main Chat UI and Logic
+│   └── App.jsx             # Entry Point
+├── package.json
+└── README.md
+```
+
+---
+
+### 🔧 Setup Instructions
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/ai-chatbot-react.git
+
+# Navigate to folder
+cd ai-chatbot-react
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+---
+
+### ⚙️ Deployment (Netlify)
+
+1. Build the project:
+
+   ```bash
+   npm run build
+   ```
+
+2. Upload the `dist` folder to Netlify or link your GitHub repo to Netlify.
+
+3. Make sure you add `_redirects` file in the `public` folder:
+
+   ```
+   /*    /index.html   200
+   ```
+
+---
+
+
+
+### 📸 Screenshots
+
+| Chatbot UI                          | Chat in Action                       |
+| ----------------------------------- | ------------------------------------ |
+| ![Chatbot](./public/Aibot.png) | ![Chat](./public/chat-in-action.gif) |
+
+---
+
+### 🙌 Acknowledgements
+
+* [Google Gemini AI](https://makersuite.google.com/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Lucide Icons](https://lucide.dev/)
+* [React Markdown](https://github.com/remarkjs/react-markdown)
+
+---
+
+### 📃 License
+
+MIT © 2025 Shrutika Gadekar
