@@ -69,7 +69,7 @@ npm run dev
 
 ---
 
-### ⚙️ Deployment (Netlify)
+### ⚙️ Deployment (Netlify) https://playful-bunny-b8a4a1.netlify.app/
 
 1. Build the project:
 
